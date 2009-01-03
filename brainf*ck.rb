@@ -36,5 +36,5 @@ read_source_char() do |char|
     end
 end
 
-ptr = 0; data = (1..1000).map{|_|0}; l = 0
+ptr = 0; data = (1..1000).map{|_|0}
 eval(source) rescue exit
